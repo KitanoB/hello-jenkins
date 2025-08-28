@@ -1,2 +1,6 @@
 # hello-jenkins
-Jenkins Test Purpose
+Jenkins Test Purpose. 
+
+## Webhooks
+- PR
+- Pushes 
