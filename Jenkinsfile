@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('Checkout and Set PR Status') {
             steps {
@@ -11,6 +10,6 @@ pipeline {
                 }
             }
         }
-        // Your other build and test stages will go here...
     }
 }
+
