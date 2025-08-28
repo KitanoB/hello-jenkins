@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent Docker-Agent 
     stages {
         stage('Checkout and Set PR Status') {
             steps {
@@ -12,4 +12,5 @@ pipeline {
         }
     }
 }
+
 
